@@ -14,7 +14,20 @@
 </head>
 <body>
 	<div class="container">
-		@yield('content')
+		<div class="two columns">
+			<!-- Reklameplads -->
+		</div>
+		<div class="twelve columns">
+			<h1 class="remove-bottom" style="margin-top: 40px">FashionDK.dk</h1>
+			<h5>&nbsp;News fra den danske modeverden</h5>
+			<hr />
+		
+			@yield('content')
+		
+		</div>	
+		<div class="two columns">
+			<!-- Reklameplads -->
+		</div>
 	</div>
 </body>
 </html>
