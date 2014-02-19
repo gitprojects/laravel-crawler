@@ -16,6 +16,7 @@
 	<div class="container">
 		<div class="two columns">
 			<!-- Reklameplads -->
+			<p style="color:#fff">Test</p>
 		</div>
 		<div class="twelve columns">
 			<h1 class="remove-bottom" style="margin-top: 40px">FashionDK.dk</h1>
