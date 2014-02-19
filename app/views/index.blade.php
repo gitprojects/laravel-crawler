@@ -12,6 +12,8 @@
 			<hr>
 		</div>
 
+
+
 		<div class="two offset-by-one columns">
 			<h3>Kategorier</h3>
 			<p>

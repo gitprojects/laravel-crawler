@@ -19,6 +19,7 @@
 			<p style="color:#fff">Test</p>
 		</div>
 		<div class="twelve columns">
+			<iframe marginwidth="0" marginheight="0" frameborder="0" scrolling="no" width="728" height="90" src="http://www.partner-ads.com/dk/visbannerrotation.php?rid=11448"></iframe>
 			<h1 class="remove-bottom" style="margin-top: 40px">FashionDK.dk</h1>
 			<h5>&nbsp;News fra den danske modeverden</h5>
 			<hr />
