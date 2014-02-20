@@ -12,31 +12,6 @@
 			<hr>
 		</div>
 
-		<?php 
-
-			include_once $_SERVER["DOCUMENT_ROOT"].'/simple_html_dom.php';
-//			include_once __DIR__.'/simple_html_dom.php';
-			
-			$url = 'http://fashionforum.dk/nyheder';
-			
-			$html = new simple_html_dom();
-			
-			$html->load_file($url);
-
-			// foreach($html->find("article") as $article){
-			//	echo $article;
-			//}
-
-			// Find all article blocks
-			foreach($html->find("article") as $article) {
-				$item['title']     = $article->find('a.fPermalink', 0)->plaintext;
-				//$item['intro']    = $article->find('div.intro', 0)->plaintext;
-				$articles[] = $item;
-			}
-
-			print_r($articles);
-
-		?>
 
 		<div class="two offset-by-one columns">
 			<h3>Kategorier</h3>
